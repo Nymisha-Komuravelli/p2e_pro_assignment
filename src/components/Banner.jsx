@@ -25,6 +25,7 @@ function Banner() {
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcvhu5mtTy5TIri96R_2Af_dfrtRqRd3qTrtj9njzs9LANb10dGWaRMj-_QLMZNp4hzIg&usqp=CAU"
               className="banner-image float-lg-right mt-3 mt-lg-0"
+              alt="banner image"
             />
           </div>
         </div>

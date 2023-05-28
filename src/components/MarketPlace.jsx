@@ -1,6 +1,7 @@
 import React from "react";
 
 function MarketPlace() {
+  const eightItems = [0, 1, 2, 3, 4, 5, 6, 7];
   return (
     <div className="container mt-5">
       <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center align-items-md-end flex-wrap">
@@ -9,6 +10,7 @@ function MarketPlace() {
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKj2PB8MeL-EisooAOwZVOD6W9x0jjesz4w&usqp=CAU"
             className="heart-icon pl-2"
+            alt="like"
           />
         </h2>
         <div className="d-flex flex-column flex-md-row align-items-end">
@@ -31,7 +33,7 @@ function MarketPlace() {
           </div>
         </div>
       </div>
-      <div className="mt-4 mb-5 d-flex flex-wrap">
+      <div className="mt-4 d-flex flex-wrap">
         <button className="btn btn-style btn-light rounded-btn blue-btn mb-3 mr-3">
           <i className="fa fa-music pr-2"></i>
           Trending
@@ -71,222 +73,71 @@ function MarketPlace() {
       </div>
       <div className="mt-3">
         <div className="row">
-          <div className="col-sm-6 col-lg-4 col-xl-3">
-            <div className="card mb-3">
-              <div className="d-flex py-2 px-3 justify-content-between align-items-center">
-                <div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcH39RIY3ka85PRTceGNy7eT7mMrHsw-jSw&usqp=CAU"
-                    className="profile-image"
-                  />
-                  <span className="ml-1 profile-name">@gharliera</span>
-                </div>
-                <i className="fa fa-ellipsis-h profile-name"></i>
-              </div>
-
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNm1tzvaCZnEzh8IOBoQoso2-uS9YwahOgw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <div className="d-flex py-2 justify-content-between align-items-center">
+          {eightItems.map((item) => (
+            <div className="col-sm-6 col-lg-4 col-xl-3">
+              <div className="card mb-3">
+                <div className="d-flex py-2 px-3 justify-content-between align-items-center">
                   <div>
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXpi1Nrns6Lg_qmU2V4jJ4kexQbqsgKyCxg&usqp=CAU"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcH39RIY3ka85PRTceGNy7eT7mMrHsw-jSw&usqp=CAU"
                       className="profile-image"
+                      alt="profile pic"
                     />
-                    <span className="ml-1 profile-name">Special Surprise</span>
+                    <span className="ml-1 profile-name">@gharliera</span>
                   </div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIopy_P4cB5Qwd_W6Ndjj-D5Qygt40CQM87Q&usqp=CAU"
-                    className="heart-icon"
-                  />
+                  <i className="fa fa-ellipsis-h profile-name"></i>
                 </div>
-                <h5 className="mt-1 font-weight-bold">Geometrical Figure</h5>
-              </div>
-              <div className="card-footer py-3">
-                <div className="d-flex justify-content-between align-items-center">
-                  <div>
-                    <p className="light-text-small mb-1">Current bid</p>
+
+                <img
+                  className="card-img-top"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNm1tzvaCZnEzh8IOBoQoso2-uS9YwahOgw&usqp=CAU"
+                  alt="Card image cap"
+                />
+                <div className="card-body">
+                  <div className="d-flex py-2 justify-content-between align-items-center">
+                    <div>
+                      <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXpi1Nrns6Lg_qmU2V4jJ4kexQbqsgKyCxg&usqp=CAU"
+                        className="profile-image"
+                        alt="profile pic"
+                      />
+                      <span className="ml-1 profile-name">
+                        Special Surprise
+                      </span>
+                    </div>
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDn0ojTITvcdAzMsfBMJaZC4STaDHzduleQ&usqp=CAU"
-                      className="crypto-logo"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIopy_P4cB5Qwd_W6Ndjj-D5Qygt40CQM87Q&usqp=CAU"
+                      className="heart-icon"
+                      alt="like"
                     />
-                    <span className="crypto-coin-count">0.40 ETH</span>
                   </div>
-                  <div className="text-right">
-                    <button className="btn rounded-btn blue-btn">
-                      Place a bid
-                    </button>
+                  <h5 className="mt-1 font-weight-bold">Geometrical Figure</h5>
+                </div>
+                <div className="card-footer py-3">
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div>
+                      <p className="light-text-small mb-1">Current bid</p>
+                      <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDn0ojTITvcdAzMsfBMJaZC4STaDHzduleQ&usqp=CAU"
+                        className="crypto-logo"
+                        alt="crypto logo"
+                      />
+                      <span className="crypto-coin-count">0.40 ETH</span>
+                    </div>
+                    <div className="text-right">
+                      <button className="btn rounded-btn blue-btn">
+                        Place a bid
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
-            <div className="card mb-3">
-              <div className="d-flex py-2 px-3 justify-content-between align-items-center">
-                <div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcH39RIY3ka85PRTceGNy7eT7mMrHsw-jSw&usqp=CAU"
-                    className="profile-image"
-                  />
-                  <span className="ml-1 profile-name">@gharliera</span>
-                </div>
-                <i className="fa fa-ellipsis-h profile-name"></i>
-              </div>
-
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNm1tzvaCZnEzh8IOBoQoso2-uS9YwahOgw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <div className="d-flex py-2 justify-content-between align-items-center">
-                  <div>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXpi1Nrns6Lg_qmU2V4jJ4kexQbqsgKyCxg&usqp=CAU"
-                      className="profile-image"
-                    />
-                    <span className="ml-1 profile-name">Special Surprise</span>
-                  </div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIopy_P4cB5Qwd_W6Ndjj-D5Qygt40CQM87Q&usqp=CAU"
-                    className="heart-icon"
-                  />
-                </div>
-                <h5 className="mt-1 font-weight-bold">Geometrical Figure</h5>
-              </div>
-              <div className="card-footer py-3">
-                <div className="d-flex justify-content-between align-items-center">
-                  <div>
-                    <p className="light-text-small mb-1">Current bid</p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDn0ojTITvcdAzMsfBMJaZC4STaDHzduleQ&usqp=CAU"
-                      className="crypto-logo"
-                    />
-                    <span className="crypto-coin-count">0.40 ETH</span>
-                  </div>
-                  <div className="text-right">
-                    <button className="btn rounded-btn blue-btn">
-                      Place a bid
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
-            <div className="card mb-3">
-              <div className="d-flex py-2 px-3 justify-content-between align-items-center">
-                <div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcH39RIY3ka85PRTceGNy7eT7mMrHsw-jSw&usqp=CAU"
-                    className="profile-image"
-                  />
-                  <span className="ml-1 profile-name">@gharliera</span>
-                </div>
-                <i className="fa fa-ellipsis-h profile-name"></i>
-              </div>
-
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNm1tzvaCZnEzh8IOBoQoso2-uS9YwahOgw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <div className="d-flex py-2 justify-content-between align-items-center">
-                  <div>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXpi1Nrns6Lg_qmU2V4jJ4kexQbqsgKyCxg&usqp=CAU"
-                      className="profile-image"
-                    />
-                    <span className="ml-1 profile-name">Special Surprise</span>
-                  </div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIopy_P4cB5Qwd_W6Ndjj-D5Qygt40CQM87Q&usqp=CAU"
-                    className="heart-icon"
-                  />
-                </div>
-                <h5 className="mt-1 font-weight-bold">Geometrical Figure</h5>
-              </div>
-              <div className="card-footer py-3">
-                <div className="d-flex justify-content-between align-items-center">
-                  <div>
-                    <p className="light-text-small mb-1">Current bid</p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDn0ojTITvcdAzMsfBMJaZC4STaDHzduleQ&usqp=CAU"
-                      className="crypto-logo"
-                    />
-                    <span className="crypto-coin-count">0.40 ETH</span>
-                  </div>
-                  <div className="text-right">
-                    <button className="btn rounded-btn blue-btn">
-                      Place a bid
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-lg-4 col-xl-3">
-            <div className="card mb-3">
-              <div className="d-flex py-2 px-3 justify-content-between align-items-center">
-                <div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcH39RIY3ka85PRTceGNy7eT7mMrHsw-jSw&usqp=CAU"
-                    className="profile-image"
-                  />
-                  <span className="ml-1 profile-name">@gharliera</span>
-                </div>
-                <i className="fa fa-ellipsis-h profile-name"></i>
-              </div>
-
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNm1tzvaCZnEzh8IOBoQoso2-uS9YwahOgw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <div className="d-flex py-2 justify-content-between align-items-center">
-                  <div>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXpi1Nrns6Lg_qmU2V4jJ4kexQbqsgKyCxg&usqp=CAU"
-                      className="profile-image"
-                    />
-                    <span className="ml-1 profile-name">Special Surprise</span>
-                  </div>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIopy_P4cB5Qwd_W6Ndjj-D5Qygt40CQM87Q&usqp=CAU"
-                    className="heart-icon"
-                  />
-                </div>
-                <h5 className="mt-1 font-weight-bold">Geometrical Figure</h5>
-              </div>
-              <div className="card-footer py-3">
-                <div className="d-flex justify-content-between align-items-center">
-                  <div>
-                    <p className="light-text-small mb-1">Current bid</p>
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDn0ojTITvcdAzMsfBMJaZC4STaDHzduleQ&usqp=CAU"
-                      className="crypto-logo"
-                    />
-                    <span className="crypto-coin-count">0.40 ETH</span>
-                  </div>
-                  <div className="text-right">
-                    <button className="btn rounded-btn blue-btn">
-                      Place a bid
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
         <div className="row">
           <div
-            className="col-6 offset-md-3 btn-style"
+            className="col-6 offset-3 btn-style"
             style={{ maxWidth: "initial" }}
           >
             <button className="btn btn-light btn-block py-2 mt-2">

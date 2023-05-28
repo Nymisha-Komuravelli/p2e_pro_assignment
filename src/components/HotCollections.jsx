@@ -1,6 +1,7 @@
 import React from "react";
 
 function HotCollections() {
+  const threeItems = [0, 1, 2];
   return (
     <div className="container mt-5">
       <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center">
@@ -20,87 +21,38 @@ function HotCollections() {
 
       <div className="mt-3">
         <div className="row">
-          <div className="col-sm-6 col-xl-4">
-            <div className="card border-0 bg-light p-1 mb-3">
-              <div className="card-body text-center">
-                <img
-                  className="card-img-top rounded"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfThGtpFd1uTI0NBU5KxMxqLzXrgzBzWRY3A&usqp=CAU"
-                  alt="Card image cap"
-                />
-                <div className="d-flex justify-content-between align-items-center mt-3">
+          {threeItems.map((item) => (
+            <div className="col-sm-6 col-xl-4">
+              <div className="card border-0 bg-light p-1 mb-3">
+                <div className="card-body text-center">
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
-                    className="hot-collections-small-image rounded"
+                    className="card-img-top rounded"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfThGtpFd1uTI0NBU5KxMxqLzXrgzBzWRY3A&usqp=CAU"
+                    alt="Card image cap"
                   />
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
-                    className="hot-collections-small-image rounded-circle small-circle-image"
-                  />
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
-                    className="hot-collections-small-image rounded"
-                  />
+                  <div className="d-flex justify-content-between align-items-center mt-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
+                      className="hot-collections-small-image rounded"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
+                      className="hot-collections-small-image rounded-circle small-circle-image"
+                      alt="Card image cap"
+                    />
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
+                      className="hot-collections-small-image rounded"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <h5 className="mt-3 font-weight-bold">Sound of Silence</h5>
+                  <p className="profile-name">235 in Collection</p>
                 </div>
-                <h5 className="mt-3 font-weight-bold">Sound of Silence</h5>
-                <p className="profile-name">235 in Collection</p>
               </div>
             </div>
-          </div>
-          <div className="col-sm-6 col-xl-4">
-            <div className="card border-0 bg-light p-1 mb-3">
-              <div className="card-body text-center">
-                <img
-                  className="card-img-top rounded"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfThGtpFd1uTI0NBU5KxMxqLzXrgzBzWRY3A&usqp=CAU"
-                  alt="Card image cap"
-                />
-                <div className="d-flex justify-content-between align-items-center mt-3">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
-                    className="hot-collections-small-image rounded"
-                  />
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
-                    className="hot-collections-small-image rounded-circle small-circle-image"
-                  />
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
-                    className="hot-collections-small-image rounded"
-                  />
-                </div>
-                <h5 className="mt-3 font-weight-bold">Sound of Silence</h5>
-                <p className="profile-name">235 in Collection</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-xl-4">
-            <div className="card border-0 bg-light p-1 mb-3">
-              <div className="card-body text-center">
-                <img
-                  className="card-img-top rounded"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfThGtpFd1uTI0NBU5KxMxqLzXrgzBzWRY3A&usqp=CAU"
-                  alt="Card image cap"
-                />
-                <div className="d-flex justify-content-between align-items-center mt-3">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
-                    className="hot-collections-small-image rounded"
-                  />
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
-                    className="hot-collections-small-image rounded-circle small-circle-image"
-                  />
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
-                    className="hot-collections-small-image rounded"
-                  />
-                </div>
-                <h5 className="mt-3 font-weight-bold">Sound of Silence</h5>
-                <p className="profile-name">235 in Collection</p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

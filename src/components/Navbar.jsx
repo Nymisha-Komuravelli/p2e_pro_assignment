@@ -9,8 +9,9 @@ function Navbar() {
             <img
               src="https://i.tracxn.com/logo/company/prepro_9497cdd7-b677-423d-bee2-10ac8963e213.PNG?height=120&width=120"
               className="navbar-logo"
+              alt="company logo"
             />
-            <a className="navbar-brand font-weight-bold" href="#">
+            <a className="navbar-brand font-weight-bold" href="#top">
               P2E Pro
             </a>
           </div>
@@ -34,35 +35,36 @@ function Navbar() {
             </form>
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#top">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#top">
                   Explore
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#top">
                   Create
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#top">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#top">
                   Contact
                 </a>
               </li>
               <li className="nav-item">
-                <a className="px-lg-2" href="#">
+                <a className="px-lg-2" href="#top">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZifvveZ9bsdeiCxsVqmT_tmAHoF6bt0nKQ9EBQwa4nP4nXPI7z-Uq3y0pHRA3KwBZup8&usqp=CAU"
                     className="profile-image"
+                    alt="profile pic"
                   />
                 </a>
               </li>
