@@ -21,7 +21,6 @@ function Footer() {
               >
                 <img
                   src="https://img.icons8.com/?size=512&id=aRiu1GGi6Aoe&format=png"
-                  alt=""
                   width={30}
                   height={30}
                 />

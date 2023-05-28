@@ -12,12 +12,12 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <Banner />
-      <TrendingAuctions />
-      <TopSellers />
-      <MarketPlace />
-      <HotCollections />
-      <Mintbuy />
+      <Banner/>
+      <TrendingAuctions/>
+      <TopSellers/>
+      <MarketPlace/>
+      <HotCollections/>
+      <Mintbuy/>
       <Footer />
     </div>
   );

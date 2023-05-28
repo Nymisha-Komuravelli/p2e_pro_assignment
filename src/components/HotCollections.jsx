@@ -31,17 +31,14 @@ function HotCollections() {
                 <div className="d-flex justify-content-between align-items-center mt-3">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded"
                   />
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded-circle small-circle-image"
                   />
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded"
                   />
                 </div>
@@ -61,17 +58,14 @@ function HotCollections() {
                 <div className="d-flex justify-content-between align-items-center mt-3">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded"
                   />
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded-circle small-circle-image"
                   />
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded"
                   />
                 </div>
@@ -91,17 +85,14 @@ function HotCollections() {
                 <div className="d-flex justify-content-between align-items-center mt-3">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded"
                   />
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded-circle small-circle-image"
                   />
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
-                    alt=""
                     className="hot-collections-small-image rounded"
                   />
                 </div>
