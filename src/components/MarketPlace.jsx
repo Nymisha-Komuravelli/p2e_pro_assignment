@@ -91,7 +91,7 @@ function MarketPlace() {
                 <img
                   className="card-img-top"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNm1tzvaCZnEzh8IOBoQoso2-uS9YwahOgw&usqp=CAU"
-                  alt="Card image cap"
+                  alt="Card cap"
                 />
                 <div className="card-body">
                   <div className="d-flex py-2 justify-content-between align-items-center">

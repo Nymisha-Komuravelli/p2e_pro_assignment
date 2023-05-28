@@ -28,23 +28,23 @@ function HotCollections() {
                   <img
                     className="card-img-top rounded"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfThGtpFd1uTI0NBU5KxMxqLzXrgzBzWRY3A&usqp=CAU"
-                    alt="Card image cap"
+                    alt="Card cap"
                   />
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <img
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIqxDcGx86_vbeoHmzCpgg-Zp4kFF_kRkWhQ&usqp=CAU"
                       className="hot-collections-small-image rounded"
-                      alt="Card image cap"
+                      alt="Card cap"
                     />
                     <img
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdzGJ-EJ_uk5Bffw9NFZMXMawRcz6HTLHyQ&usqp=CAU"
                       className="hot-collections-small-image rounded-circle small-circle-image"
-                      alt="Card image cap"
+                      alt="Card cap"
                     />
                     <img
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo4AtB78IsFWTHmBEghpxo1pyNNtByx4xwEA&usqp=CAU"
                       className="hot-collections-small-image rounded"
-                      alt="Card image cap"
+                      alt="Card cap"
                     />
                   </div>
                   <h5 className="mt-3 font-weight-bold">Sound of Silence</h5>

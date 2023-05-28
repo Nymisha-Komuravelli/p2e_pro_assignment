@@ -43,7 +43,7 @@ function TrendingAuctions() {
                 <img
                   className="card-img-top"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0lWo_v25xUHvplUgxkeLYJAo5ePTRFPwREA&usqp=CAU"
-                  alt="Card image cap"
+                  alt="Card cap"
                 />
                 <div className="card-body">
                   <div>

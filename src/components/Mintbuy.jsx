@@ -17,7 +17,7 @@ function Mintbuy() {
                   <img
                     className="rounded-circle top-sellers-image"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19uwS29F3H8mY1stjDsWLGB79eNxNCR5Liw&usqp=CAU"
-                    alt="Card image cap"
+                    alt="Card cap"
                   />
                   <h5 className="mt-4 mb-0 font-weight-bold p-3">
                     Buy and sell your NFTs
@@ -33,7 +33,7 @@ function Mintbuy() {
                   <img
                     className="rounded-circle top-sellers-image"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19uwS29F3H8mY1stjDsWLGB79eNxNCR5Liw&usqp=CAU"
-                    alt="Card image cap"
+                    alt="Card cap"
                   />
                   <h5 className="mt-4 mb-0 font-weight-bold p-3">
                     Discover top artists & creators
@@ -53,7 +53,7 @@ function Mintbuy() {
                   <img
                     className="rounded-circle top-sellers-image"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19uwS29F3H8mY1stjDsWLGB79eNxNCR5Liw&usqp=CAU"
-                    alt="Card image cap"
+                    alt="Card cap"
                   />
                   <h5 className="mt-4 mb-0 font-weight-bold p-3">
                     Buy and sell your NFTs

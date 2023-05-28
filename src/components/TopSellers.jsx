@@ -29,7 +29,7 @@ function TopSellers() {
                     <img
                       className="rounded-circle top-sellers-image"
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4SMN3aogg-vB_IGfqGsvPC71cSKoezdblgQ&usqp=CAU"
-                      alt="Card image cap"
+                      alt="Card cap"
                     />
                     <p className="mt-2 mb-0 font-weight-bold">Jim_Sechen</p>
                     <p className="profile-name">$1,908</p>
